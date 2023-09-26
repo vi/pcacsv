@@ -21,12 +21,12 @@ coord1   coord2   Cereal Name                  Manufacturer
 $ tail -n +2 output.csv | tr ',_' ' .' | awk '{print $1, $2, $3}' | feedgnuplot --domain --style 0 'with labels' --rangesize 0 2
 ```
 
-![Visualisation of dimreduced cereal.csv](cereal.png).
+![Visualisation of dimreduced cereal.csv](cereal.png)
 
 
 ## Installation
 
-Install from source code with `cargo install --path .`  or `cargo install pcacsv`.
+Install from source code with `cargo install --path .`  or `cargo install pcacsv`. You may need to satisfy certain system dependencies.
 
 It depends on OpenBLAS which is be tricky to (cross)-compile, so no assets on Github Releases this time.
 
