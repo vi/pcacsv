@@ -2,6 +2,12 @@
 name = "pcacsv"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/vi/pcacsv"
+license = "MIT/Apache-2.0"
+description = "Command line tool to analyse data in CSV files using `pca` crate"
+categories = ["command-line-utilities"]
+keywords = ["csv", "pca", "cli"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
